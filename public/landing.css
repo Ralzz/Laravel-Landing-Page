@@ -1,0 +1,43 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f3f3f3;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+}
+
+.wallet-btn {
+    background-color: #ffc400;
+    padding: 10px 20px;
+    border: none;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+/* Add more styles as per each section */
